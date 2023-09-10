@@ -444,7 +444,14 @@ body {
 .portfolio__image {
   border-radius: 0.3rem;
   margin-bottom: 2rem;
+  margin: 10px;
+  transition: transform 0.3s; /* Ajoutez une transition en douceur */
 }
+
+.portfolio__image:hover {
+  transform: scale(1.1); /* Augmente la taille de l'image de 10 % */
+}
+      
 
 .portfolio__category {
   font-weight: var(--fw-semibold);
