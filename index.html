@@ -1,161 +1,226 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Florian AGBODJI Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florian AGBODJI</title>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Florian AGBODJI<br />
-							Portfolio</h1>
-						<p>Aspiring Data Analyst with good skills in SQL, Python, Tableau and Power BI<br /><a href="https://www.linkedin.com/in/florian-agbodji-3b9365162">@FlorianAGBODJI</a></p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <!--========== GOOGLE FONTS ===========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-				<!-- Header -->
-					<header id="header">
-						<a class="logo">Data Analytics</a>
-					</header>
+    <!--========== BOXICONS ===========-->
+    <link rel="stylesheet" href="assets/css/boxicons/css/boxicons.min.css">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/florian-agbodji-3b9365162" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/agbodjiflorian" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-							
-						</ul>
-					</nav>
+    <!--========== SWIPER CSS ===========-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-				<!-- Main -->
-					<div id="main">
+    <!--========== MAIN CSS ===========-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">SQL - And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">View Project</a></li>
-								</ul>
-							</article>
+<body>
+    <!--==================  HEADER ====================-->
+    <header id="l-header" class="l-header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand">Florian AGBODJI</a>
+                <div id="nav-menu" class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">Portfolio</a>
+                        </li>
+                        <li class="nav__item">                     
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+                <div class="nav__open" id="nav-open">
+                    <i class="bx bx-menu-alt-right"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="l-main">
+        <!--==================  HOME SECTION ====================-->
+        <section id="home" class="home section">
+            <div class="container">
+                <div class="grid home__wrapper">
+                    <img src="assets/img/florianagbodji.png" alt="Florian AGBODJI" class="home__image">
+                    <div class="home__body">
+                        <span class="home__subtitle">Welcome!</span>
+                        <h1 class="home__title">I'm <span class="home__name">Florian</span> <br>
+                            Aspiring Data Analyst.
+                        </h1>
+                        <p class="home__title">Good skills in SQL, Python, Tableau, Power BI and Statistics.</p>
+                        <a href="https://github.com/agbodjiflorian/" target="_blank" class="btn btn--primary">
+                            <i class="bx bxl-github"></i>
+                            Github
+                        </a>
+                        <!-- social media links -->
+                        <div class="social">
+                            <ul class="social__list">
+                                <!-- 
+                                <li class="social__item">
+                                    <a href="https://github.com/agbodjiflorian/" target="_blank" class="social__link">
+                                        <i class="bx bxl-github"></i>
+                                    </a>
+                                </li>
+                                -->
+                                <li class="social__item">
+                                    <a href="https://www.linkedin.com/in/florian-agbodji-3b9365162/" target="_blank" class="social__link">
+                                        <i class="bx bxl-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="#"> Python - Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Tableau - Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Power BI - Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Power BI - Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
-									</ul>
-								</article>
-						
-							</section>
 
-					</div>
+        <!--==================  PORTFOLIO SECTION ====================-->
+        <section id="portfolio" class="portfolio section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">My Projects</h2>
+                    <p class="section__description">
+                        Here are some projects I have done so far, whether to practice or to discover a new programming language.
+                    </p>
+                </div>
+                <div class="grid portfolio__wrapper">
+                    <!--========== project 1 ============-->
+                    <div class="portfolio__card">
+                        <img src="assets/img/postgresql.jpg" alt="Project title" class="portfolio__image">
+                        <h3 class="portfolio__title">SQL</h3>
+                        <a href="#" class="btn btn--primary">
+                            <i class="bx bx-folder-open"></i>
+                            View Details
+                        </a>
+                    </div>
+                    <!--========== project 2 ============-->
+                    <div class="portfolio__card">
+                        <img src="assets/img/python.png" alt="Project title" class="portfolio__image">
+                        <h3 class="portfolio__title">Python</h3>
+                        <a href="#" class="btn btn--primary">
+                            <i class="bx bx-folder-open"></i>
+                            View Details
+                        </a>
+                    </div>
+                    <!--========== project 3 ============-->
+                    <div class="portfolio__card">
+                        <img src="assets/img/power bii.jpg" alt="Project title" class="portfolio__image">
+                        <h3 class="portfolio__title">Power BI</h3>
+                        <a href="#" class="btn btn--primary">
+                            <i class="bx bx-folder-open"></i>
+                            View Details
+                        </a>
+                    </div>
+                    <!--========== project 4 ============-->
+                    <div class="portfolio__card">
+                        <img src="assets/img/tableau.png" alt="Project title" class="portfolio__image">
+                        <h3 class="portfolio__title">Tableau</h3>
+                        <a href="#" class="btn btn--primary">
+                            <i class="bx bx-folder-open"></i>
+                            View Details
+                        </a>
+                    </div>
+                    <!--========== project 5 ============-->
+                    <div class="portfolio__card">
+                        <img src="assets/img/statistics.jpg" alt="Project title" class="portfolio__image">
+                        <h3 class="portfolio__title">Statistics</h3>
+                        <a href="#" class="btn btn--primary">
+                            <i class="bx bx-folder-open"></i>
+                            View Details
+                        </a>
+                    </div>
+                    <!--========== project 6 ============-->
+                    <div class="portfolio__card">
+                        <img src="assets/img/mll.png" alt="Project title" class="portfolio__image">
+                        <h3 class="portfolio__title">Machine Learning</h3>
+                        <a href="#" class="btn btn--primary">
+                            <i class="bx bx-folder-open"></i>
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Benin Republic</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a >(+229) 67345220</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a >agbodjiflorian8@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/florian-agbodji-3b9365162" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/agbodjiflorian" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					
-					</footer>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+        <!--==================  CONTACT SECTION ====================-->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="grid contact__wrapper">
+                    <center>
+                        <h2 class="section__title">Contact Me</h2>
+                    </center>
+                    
+                    <div class="contact__body">
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                                <span class="contact__icon">
+                                    <i class="bx bx-phone"></i>
+                                </span>
+                                +229 67345220
+                            </li>
+                            <li class="contact__item">
+                                <span class="contact__icon">
+                                    <i class="bx bx-envelope"></i>
+                                </span>
+                                <a href = "mailto:agbodjiflorian8@gmail.com">agbodjiflorian8@gmail.com </a>
+                                
+                            </li>
+                            <li class="contact__item">
+                                <span class="contact__icon">
+                                    <i class="bx bx-map"></i>
+                                </span>
+                                Cotonou, Bénin
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
 
-			</div>
+    <!--==================  FOOTER ====================-->
+    <footer class="l-footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <h4 class="footer__name">Florian AGBODJI</h4>
+                <p class="footer__description">Data Analyst</p>
+                <div class="social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="https://github.com/agbodjiflorian/" class="social__link">
+                                <i class="bx bxl-github"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.linkedin.com/in/florian-agbodji-3b9365162/" class="social__link">
+                                <i class="bx bxl-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!--================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
-	</body>
+    <!--================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
