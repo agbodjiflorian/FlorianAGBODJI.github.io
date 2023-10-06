@@ -295,6 +295,11 @@ body {
 
 .home__title {
   font-size: var(--fs-heading);
+  margin-bottom: 0rem;
+}
+
+.home__title1 {
+  font-size: var(--fs-heading);
   margin-bottom: 2rem;
 }
 
